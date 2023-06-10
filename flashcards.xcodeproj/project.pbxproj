@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE6F93042A32A118007AB189 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6F93032A32A118007AB189 /* Flashcard.swift */; };
+		BE6F93082A32AAFF007AB189 /* FlashcardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6F93072A32AAFF007AB189 /* FlashcardDetail.swift */; };
+		BE6F930B2A32C343007AB189 /* FlashcardNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6F930A2A32C343007AB189 /* FlashcardNew.swift */; };
+		BE6F930D2A340049007AB189 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6F930C2A340049007AB189 /* Color+Extension.swift */; };
 		BEF263BA2A328B4000A870ED /* flashcardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF263B92A328B4000A870ED /* flashcardsApp.swift */; };
 		BEF263BC2A328B4000A870ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF263BB2A328B4000A870ED /* ContentView.swift */; };
 		BEF263BE2A328B4100A870ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF263BD2A328B4100A870ED /* Assets.xcassets */; };
@@ -14,6 +18,7 @@
 		BEF263CC2A328B4100A870ED /* flashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF263CB2A328B4100A870ED /* flashcardsTests.swift */; };
 		BEF263D62A328B4100A870ED /* flashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF263D52A328B4100A870ED /* flashcardsUITests.swift */; };
 		BEF263D82A328B4100A870ED /* flashcardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF263D72A328B4100A870ED /* flashcardsUITestsLaunchTests.swift */; };
+		BEF263E82A32953000A870ED /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEF263EA2A32953000A870ED /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE6F93032A32A118007AB189 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
+		BE6F93072A32AAFF007AB189 /* FlashcardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardDetail.swift; sourceTree = "<group>"; };
+		BE6F93092A32C0FE007AB189 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BE6F930A2A32C343007AB189 /* FlashcardNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardNew.swift; sourceTree = "<group>"; };
+		BE6F930C2A340049007AB189 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		BEF263B62A328B4000A870ED /* flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF263B92A328B4000A870ED /* flashcardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flashcardsApp.swift; sourceTree = "<group>"; };
 		BEF263BB2A328B4000A870ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +55,7 @@
 		BEF263D12A328B4100A870ED /* flashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF263D52A328B4100A870ED /* flashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flashcardsUITests.swift; sourceTree = "<group>"; };
 		BEF263D72A328B4100A870ED /* flashcardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flashcardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEF263E92A32953000A870ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +108,11 @@
 			children = (
 				BEF263B92A328B4000A870ED /* flashcardsApp.swift */,
 				BEF263BB2A328B4000A870ED /* ContentView.swift */,
+				BE6F93072A32AAFF007AB189 /* FlashcardDetail.swift */,
+				BE6F930A2A32C343007AB189 /* FlashcardNew.swift */,
+				BE6F930C2A340049007AB189 /* Color+Extension.swift */,
+				BE6F93032A32A118007AB189 /* Flashcard.swift */,
+				BEF263EA2A32953000A870ED /* Localizable.strings */,
 				BEF263BD2A328B4100A870ED /* Assets.xcassets */,
 				BEF263BF2A328B4100A870ED /* flashcards.entitlements */,
 				BEF263C02A328B4100A870ED /* Preview Content */,
@@ -214,6 +230,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
 				Base,
 			);
 			mainGroup = BEF263AD2A328B4000A870ED;
@@ -234,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEF263C22A328B4100A870ED /* Preview Assets.xcassets in Resources */,
+				BEF263E82A32953000A870ED /* Localizable.strings in Resources */,
 				BEF263BE2A328B4100A870ED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE6F93042A32A118007AB189 /* Flashcard.swift in Sources */,
+				BE6F930D2A340049007AB189 /* Color+Extension.swift in Sources */,
 				BEF263BC2A328B4000A870ED /* ContentView.swift in Sources */,
 				BEF263BA2A328B4000A870ED /* flashcardsApp.swift in Sources */,
+				BE6F93082A32AAFF007AB189 /* FlashcardDetail.swift in Sources */,
+				BE6F930B2A32C343007AB189 /* FlashcardNew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +317,18 @@
 			targetProxy = BEF263D22A328B4100A870ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEF263EA2A32953000A870ED /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF263E92A32953000A870ED /* en */,
+				BE6F93092A32C0FE007AB189 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BEF263D92A328B4100A870ED /* Debug */ = {
